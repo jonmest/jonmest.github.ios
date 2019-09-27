@@ -73,9 +73,9 @@ Disallow: /
 
 I’ve simply disallowed all robots from crawling any of my pages.
 
-The robot can ignore these instructions. For example, Google completely ignores the NoIndex rule of robots.txt since September 1st 2019. https://www.searchenginejournal.com/google-robots-txt-noindex/314961/ 
+The robot can ignore these instructions. For example, Google completely ignores the NoIndex rule of robots.txt since September 1st 2019. [[1]](https://www.searchenginejournal.com/google-robots-txt-noindex/314961/)
 
-(They still adhere to robots.txt’s Disallow, albeit it doesn’t completely prevent your page from being indexed in Google) https://webmasters.googleblog.com/2019/07/a-note-on-unsupported-rules-in-robotstxt.html
+(They still adhere to robots.txt’s Disallow, albeit it doesn’t completely prevent your page from being indexed in Google) [[2]](https://webmasters.googleblog.com/2019/07/a-note-on-unsupported-rules-in-robotstxt.html)
 
 ## Humans.txt
 I find humans.txt to be quite pointless. It’s  simply a text file to acknowledge the authors of a site. But here’s how I set it up:
@@ -109,5 +109,4 @@ I made use of it as such:
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:url" content="{{ content.excerpt }}">
 <meta property="article:author" content="Jon Mester">’
-
 ```

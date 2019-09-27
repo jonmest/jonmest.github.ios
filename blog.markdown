@@ -17,7 +17,7 @@ This is where I will occasionally publish new blog posts. Find them below:
       </div>
     <div class="card-content">
           <p>
-      {{ post.excerpt }}
+      {{ post.excerpt | strip_html }}
       </p>
     </div>
     </div>
