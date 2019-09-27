@@ -157,32 +157,7 @@ main img {
     
 }
 
-@media only screen and (max-width: 600px) {
-    .main-menu {
-        position: absolute;
-    }
- 
-    .menu li {
-      display: block;
-      padding: 10px 0;
-      border-bottom: 1px solid white;
-      width: 100%;
-    }
 
-    .container {
-        margin: auto;
-        width: 80%;
-    }
-    main {
-        padding: 0;
-        padding-top: 95%;
-
-    }
-
-    .container {
-        padding: 0;
-    }
-  }
 
 .card-title {
     background: rgba(216, 216, 216, 0.459);
@@ -211,3 +186,44 @@ main img {
     margin-bottom: 60px;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .main-menu {
+        position: relative;
+          padding: 10px 0;
+    }
+ 
+    .menu li {
+      display: block;
+      padding: 10px 0;
+      border-bottom: 1px solid white;
+      width: 100%;
+    }
+
+    .container {
+        margin: auto;
+        width: 80%;
+    }
+    main {
+        padding: 0;
+        padding-top: 50px;
+
+    }
+
+    .container {
+        padding: 0;
+    }
+  
+  .main-menu .cta {
+    border: 1px solid white;
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.603);
+    transition: 300ms;
+
+}
+  
+  .card {
+    margin: 0;
+    width: 100%;
+  }
+  }
