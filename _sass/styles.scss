@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:300,400&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Sarala&display=swap');$accent-color: #f03a47;
+$primary-color: #003366;
+$primary-font:  'Be Vietnam', sans-serif;
+$header-font: 'Sarala', sans-serif;
+
+
+.post-list-heading {
+  opacity: 0.5;
+}
+
+a {
+  transition: 0.2s;
+}
+
+a:hover {
+  transition: 0.2s;
+  text-shadow: 0px 0px 2px rgba(137, 137, 137, 0.63);
+  text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+
+}
+
+.menu ul {
+    margin: 20px 20px;
+
+}
+.menu li {
+    display: inline;
+
+    
+}
+
+
+.menu a {
+    margin: 0 10px;
+}
+
+.main-menu {
+    background: $primary-color;
+    position: fixed;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.603);
+}
+
+.main-menu span, .main-menu a {
+    color: rgb(243, 243, 243);
+}
+
+
+.site-title {
+    font-family: 'Sarala', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.main-menu .cta {
+    border: 1px solid white;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.603);
+    transition: 300ms;
+
+}
+
+.main-menu .cta:hover {
+    background: rgba(238, 238, 238, 0.219);
+    transition: 300ms;
+}
+
+
+.container {
+    margin: auto;
+    padding: 150px;
+    width: 40%;
+}
+
+.main {
+    padding: 50px;
+}
+
+
+h1, h2, h3, h4, h5 {
+
+
+    font-family: $header-font;
+
+
+}
+
+p, a, li {
+
+  font-family: $primary-font;
+
+}
+
+#page-title::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 10%;
+    background:  $primary-color;
+    margin-bottom: 20px;
+}
+
+main p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+main ul {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.541);
+}
+
+.local-menu {
+    background: #cf3535;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.541);
+    margin: 20px 0;
+}
+
+.local-menu ul {
+    margin: 0;
+
+}
+
+.local-menu li, .local-menu a {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+
+.local-menu .active {
+    margin: 0;
+    background:  #811f1f;
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .main-menu {
+        position: absolute;
+    }
+ 
+    .menu li {
+      display: block;
+      padding: 10px 0;
+      border-bottom: 1px solid white;
+      width: 100%;
+    }
+
+    .container {
+        margin: auto;
+        width: 80%;
+    }
+    main {
+        padding: 0;
+        padding-top: 95%;
+
+    }
+
+    .container {
+        padding: 0;
+    }
+  }
+
+.card-title {
+    background: rgba(216, 216, 216, 0.459);
+    padding: 10px;
+
+}
+
+  .card {
+      border: 1px solid rgba(216, 216, 216, 0.616);
+      box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.541);
+      margin: 30px 0px;
+  }
+
+  .card-content {
+    padding: 10px;
+
+  }
+
+.post-content::after {
+     content: '';
+    display: block;
+    height: 5px;
+    width: 10%;
+    background:  $primary-color;
+    margin-top: 50px;
+    margin-bottom: 60px;
+
+}
