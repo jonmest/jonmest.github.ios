@@ -202,14 +202,22 @@ main img {
 
     .container {
         margin: auto;
-        width: 80%;
+        width: 90%;
     }
     main {
         padding: 0;
         padding-top: 50px;
 
     }
-
+  .card {
+    max-width: 90%;
+    margin: 0;
+    
+  }
+  
+  .card-title, .card-content {
+    width: 100;
+  }
     .container {
         padding: 0;
     }
@@ -222,8 +230,4 @@ main img {
 
 }
   
-  .card {
-    margin: 0;
-    width: 100%;
-  }
   }
