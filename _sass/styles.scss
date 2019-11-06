@@ -11,6 +11,7 @@ $header-font: 'Sarala', sans-serif;
 
 a {
   transition: 0.2s;
+  color: $primary-color;
 }
 
 a:hover {
@@ -203,6 +204,7 @@ a:visited .card {
       width: 100%;
     }
 
+
     .container {
         margin: auto;
         width: 90%;
@@ -212,6 +214,26 @@ a:visited .card {
         padding-top: 50px;
 
     }
+    
+
+    .main-menu .site-title {
+      font-size: 1.5em;
+  }
+
+  .main-menu .cta {
+      border: none;
+      box-shadow: none;
+      margin: 0;
+      padding-bottom: 10px;
+      transition: 300ms;
+      }
+
+  .menu li {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+  }
+
   .card {
     max-width: 90%;
     margin: 0;
@@ -234,10 +256,22 @@ a:visited .card {
 }
   
   }
+@media only screen and (max-width: 1400px) {
+  .main-menu {
+    position: relative;
+      padding: 10px 0;
+      margin-bottom: 30px;
+}
 
+
+  .container {
+    margin: auto;
+    padding: 0;
+    width: 70%;
+}
+}
 .highlighter-rouge {
-  margin: 30px 0;
-  border: 1px solid rgba(143, 143, 143, 0.603);
-  box-shadow: 0px 0px 10px rgba(143, 143, 143, 0.603);
-  padding: 20px;
+
+  margin: 20px 0;
+  line-height: 1.4em;
 }
