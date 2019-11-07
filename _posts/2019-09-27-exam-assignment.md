@@ -17,12 +17,14 @@ h1 {
 .article a:hover {
 	color: yellow;
 }
-(Etc. etc. for dozens of other elements)
+// (Etc. etc. for dozens of other elements)
 ```
 
-But then your client tells you their graphic designer suddenly decided to completely revamp their branding. Now their brand colors are green and purple, a perfectly wonderful color scheme, and they want the website to be congruent with that.
+But then your client tells you their graphic designer suddenly decided to completely revamp their branding. Now their brand colors are green and purple, a perfectly stunning color scheme, and they want the website design to be congruent with that.
 
-In regular CSS, this would be a pain. You’d have to manually change the colors for the dozens of classes, IDs and elements that needs change. What if there was an easier way, a smarter way, to get around this?
+In regular CSS, this would be a pain. 
+
+You’d have to manually change the colors for the dozens of classes, IDs and elements that needs change. What if there was an easier way, a smarter way, to get around this?
 
 There is, and it’s called CSS preprocessing!
 
@@ -64,7 +66,7 @@ Services such as Google use programs called “crawlers” that comb through the
 
 Robots.txt is a document you can put on your server. It serves as an instruction to these bots and tells them which pages they’re allowed to visit and which not to, as well as if the pages should be indexed in search engines. 
 
-Here’s how the robots.txt for my site:
+Here’s how the robots.txt for my site looks:
 
 ```
 User-agent: *

@@ -11,9 +11,9 @@ This is where I will occasionally publish new blog posts. Find them below:
   <a href="{{ post.url }}">
     <div class="card">
       <div class="card-title">
-            <h3>
+            <span><h3>
       {{ post.title }}
-      </h3>
+      </h3> {{ post.date | date: '%B %d, %Y'}}</span>
       </div>
     <div class="card-content">
           <p>
